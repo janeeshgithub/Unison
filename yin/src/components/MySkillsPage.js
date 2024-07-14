@@ -91,8 +91,8 @@ const MySkillsPage = () => {
           </Title>
           <Description>
             <p>
-              Create visually stunning and user-friendly interfaces, bridging
-              creativity and usability to enhance the digital experience
+              Create visually stunning and user-friendly interfaces to enhance
+              the digital experience
             </p>
           </Description>
           <Description>

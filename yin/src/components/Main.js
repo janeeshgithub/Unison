@@ -147,7 +147,7 @@ const Main = () => {
             height={click ? 120 : 200}
             fill="currentColor"
           />
-          <span>click here</span>
+          <span>Tap Me</span>
         </Center>
 
         <Contact target="_blank" href="https://janeesh.me">
@@ -166,7 +166,7 @@ const Main = () => {
             Dev
           </motion.h2>
         </Contact>
-        <BLOG to="/blog">
+        <BLOG to="/templates">
           <motion.h2
             initial={{
               y: -200,
@@ -179,10 +179,10 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Blog
+            Featured
           </motion.h2>
         </BLOG>
-        <WORK to="/work" click={+click}>
+        <WORK to="/comments" click={+click}>
           <motion.h2
             initial={{
               y: -200,
@@ -195,11 +195,11 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Contributers
+            &nbsp;&nbsp;&nbsp;&nbsp;Peers
           </motion.h2>
         </WORK>
         <BottomBar>
-          <ABOUT to="/about" click={+click}>
+          <ABOUT to="/what" click={+click}>
             <motion.h2
               initial={{
                 y: 200,
@@ -212,7 +212,7 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              THE WHAT ?
+              what ?
             </motion.h2>
           </ABOUT>
           <SKILLS to="/whom">
@@ -228,7 +228,7 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              whom ? 
+              whom ?
             </motion.h2>
           </SKILLS>
         </BottomBar>

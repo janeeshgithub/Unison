@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import Me from "./spid.jpg"
+import Me from "./sp.png";
 
 const Box = styled(motion.div)`
   position: absolute;
@@ -85,7 +85,7 @@ const Intro = () => {
           transition={{ duration: 1, delay: 2 }}
         >
           <img
-            className="pic w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64"
+            className="pic w-36 h-44 md:w-64 md:h-56 lg:w-80 lg:h-72 xl:w-96 xl:h-80"
             src={Me}
             alt="Profile Pic"
           />

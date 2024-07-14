@@ -1,63 +1,58 @@
 // work data
 
 export const Work = [
-    {
-        id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
-        
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
-    },
-    {
-        id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
-        
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
-    },
-    {
-        id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
-        
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
-    },
-    {
-        id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
-        
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
-    },{
-        id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
-    },
-    {
-        id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
-    },
-    
-  
-] 
+  {
+    id: 1,
+    name: "Alice Johnson",
+    description:
+      "I contributed my expertise in CSS and animations to enhance the user experience on this landing page.",
+    tags: ["react", "styled-components", "framer-motion"],
+    demo: "https://www.linkedin.com/company/103742279",
+    github: "https://www.linkedin.com/company/103742279",
+  },
+  {
+    id: 2,
+    name: "Michael Smith",
+    description:
+      "Worked on implementing search and filter functionalities using React Hooks for better state management.",
+    tags: ["react", "redux", "sass"],
+    demo: "https://www.linkedin.com/company/103742279",
+    github: "https://www.linkedin.com/company/103742279",
+  },
+  {
+    id: 3,
+    name: "Emily Davis",
+    description:
+      "Helped build the API integration to fetch articles, ensuring smooth real-time data handling.",
+    tags: ["react", "axios", "sass"],
+    demo: "https://www.linkedin.com/company/103742279",
+    github: "https://www.linkedin.com/company/103742279",
+  },
+  {
+    id: 4,
+    name: "David Wilson",
+    description:
+      "Designed the sidebar menu with a focus on user-friendly navigation using React Router.",
+    tags: ["react", "styled-components", "react-router"],
+    demo: "https://www.linkedin.com/company/103742279",
+    github: "https://www.linkedin.com/company/103742279",
+  },
+  {
+    id: 5,
+    name: "Sophia Brown",
+    description:
+      "Implemented the Redux architecture for state management and added smooth animations using Framer Motion.",
+    tags: ["react", "redux", "framer-motion"],
+    demo: "https://www.linkedin.com/company/103742279",
+    github: "https://www.linkedin.com/company/103742279",
+  },
+  {
+    id: 6,
+    name: "James Miller",
+    description:
+      "Created a responsive navigation component from scratch, utilizing React Router for seamless transitions.",
+    tags: ["react", "react-router", "tailwindcss"],
+    demo: "https://www.linkedin.com/company/103742279",
+    github: "https://www.linkedin.com/company/103742279",
+  },
+];
