@@ -37,7 +37,7 @@ function App() {
 
             <Route path="/work" element={<WorkPage />} />
 
-            <Route path="/skills" element={<MySkillsPage />} />
+            <Route path="/whom" element={<MySkillsPage />} />
             {/* Below is to catch all the other routes and send the user to main component,
 you can add custom 404 component or message instead of Main component*/}
             <Route path="*" element={<Main />} />
