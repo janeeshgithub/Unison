@@ -79,7 +79,7 @@ const AboutPage = () => {
           together
         </Main>
 
-        <BigTitle text=" t=THE WHAT?" top="10%" left="5%" />
+        <BigTitle text="THE WHAT?" top="10%" left="5%" />
       </Box>
     </ThemeProvider>
   );

@@ -163,7 +163,7 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Dev
+            Mgr
           </motion.h2>
         </Contact>
         <BLOG to="/templates">
